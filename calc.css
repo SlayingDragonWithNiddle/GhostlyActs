@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#invibox{
+    box-sizing: border-box;
+    height: calc(100vh-50px);
+    width: 100vw;
+    padding: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #2CF1EA ;
+    
+}
+
+#mainbox{
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    height: ;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+    gap: 10px;
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 25px;
+    margin-top: 70px;
+    background-color: #95F12C ;
+    color: white;
+    
+}
+
+#maindisplay{
+    border: 1px solid black;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    display: flex;
+    background-color: white;
+    color: #882CF1 ;
+}
+
+#display{
+    
+}
+
+#display2{
+    
+    
+}
+
+h6{
+    
+    height: 15px;
+    font-size: 15px;
+    padding-top: 10px;
+    
+}
+
+#br11{
+    box-sizing: border-box;
+    
+    display: flex;
+    gap: 11px;
+   
+    margin-top: 15px;
+    
+}
+
+#br22 {
+    box-sizing: border-box;
+    
+    display: flex;
+    gap: 11px;
+    
+
+    
+}
+
+#br33{
+    box-sizing: border-box;
+
+    display: flex;
+    gap: 11px;
+    
+
+    
+}
+
+#br44{
+    box-sizing: border-box;
+        display: flex;
+    gap: 11px;
+    
+
+    
+}
+
+#br55{
+    box-sizing: border-box;
+    display: flex;
+    gap: 11px;
+    
+}
+
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b0,#bequal,#bdot,#binto,#bdivide,#bplus,#b-,#bCLR,#bD{
+  background-color:#F12C33 ;
+  color: white;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 50%;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width , initial-scale=1.0">
+  <link rel="stylesheet" href="note.css">
+</head>
+<body>
+  
+  <title>search Note</title>
+  
+    <div id="mainbox">
+           <!--command bar-->
+    <textarea id="cmd" placeholder="command-bar" type="text"></textarea>
+            <!--header-->
+    <h2 id="header"></h2>
+         <!--writing area-->
+    <textarea id="txt" placeholder="Note"></textarea>
+    <!--popup window on note create-->
+    <div id="nname">
+    <textarea id="nnameinput" placeholder="Enter" type="text"></textarea>
+    <button id="nnameclose">X</button>
+    </div>
+    <!--popup window with file names-->
+    <ul id="nlist"></ul>
+    <!--popup window to delete specific note-->
+    <div id="ndel">
+    <input id="ndelinput" placeholder="Enter note name that you want to delete" type="text">
+    <button id="ndelclose">X</button>
+    </div>
+            <!--help stuff-->
+    <div id="help">
+      <p id="h">Inside command bar...</br></br>• n+ + Enter --> Create new note</br>• sn+ + Enter --> See all saved notes in &nbsp;&nbsp; a list</br>• s+ + Enter --> Save changes</br>• d+ + Enter --> Delete specific note</br>• d* + Enter --> Delete all notes</br>• note_name + Enter --> Open specific &nbsp;&nbsp;&nbsp;note</p>
+      <button id="helpclose">X</button>
+    </div>
+    
+  </div>
+  
+  
+  <script src="note.js"></script>
+</body>
+</html>
+
